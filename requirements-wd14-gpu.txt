@@ -1,0 +1,10 @@
+# Tested Windows CUDA 12 / cuDNN 9 build environment. Use CPU OR GPU requirements.
+-r requirements.txt
+numpy>=1.26,<3
+onnxruntime-gpu==1.23.2
+nvidia-cublas-cu12==12.9.2.10
+nvidia-cuda-runtime-cu12==12.9.79
+nvidia-cudnn-cu12==9.27.0.42
+nvidia-cufft-cu12==11.4.1.4
+nvidia-cuda-nvrtc-cu12==12.9.86
+nvidia-nvjitlink-cu12==12.9.86
